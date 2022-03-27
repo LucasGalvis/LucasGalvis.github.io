@@ -1,0 +1,131 @@
+
+*{
+    padding: 0
+    marging:0;
+
+}
+.first{
+    background:rebeccapurple
+    color:#fff;
+    font-size: 3em;
+    height: 50vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+ul{
+    background-color: rgb(163, 245, 217);
+    text-align:center;
+    width: 50%;
+    list-style-type: none;
+    
+}
+ul :hover{
+    background-color: rgb(230, 169, 245);
+}
+
+nav ul{
+    background: rgb(144, 253, 226);
+    width: 100%;
+    list-style-type: none;
+    text-align:center;
+}
+nav li :hover{
+     background-color: rgb(230, 169, 245);
+}
+nav li{
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(253, 200, 121);
+    padding: 10px;
+    width: 150px;
+}
+
+h1{
+    text-align: center;
+    color: orange;
+    padding: 20px;
+
+}
+
+
+    #Subtitulos{
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: underline;
+        color: rgb(173, 60, 19);
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3em;
+        text-align: center;
+        color: orangered;
+        text-shadow: orange 3px;
+        text-transform: uppercase;
+        
+    }
+    h2{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 26px;
+        font-weight: 100;
+        line-height: 3px;
+        letter-spacing: 3px;
+        color: coral;
+    }
+    .Textos{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        text-indent: 20px;
+        color: rgb(97, 137, 223);
+    }
+    .presenta{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 26px;
+        font-weight: 100;
+        line-height: 20px;
+        text-align: justify;
+        color: coral;
+    }
+
+    #caja1{
+        margin: 20px; color: #000;
+        height: 50%;
+        background-color: aquamarine;
+    }
+
+    #caja2{
+        margin: 20px; color: #000;
+        padding-right: 20px;
+        border-width: 20px;
+        width: 75%;
+        height: 55%;
+        background-color: rgb(163, 245, 217);
+    }
+    #caja3{
+        margin: 20px; color: #000;
+        padding-right: 20px;
+        border-width: 20px;
+        width: 75%;
+        height: 55%;
+        background-color: rgb(127, 245, 229);
+    }
+
+    #cajas{
+        margin: 20px; color: #000;
+        padding-right: 20px;
+        border-width: 20px;
+        height: 50%;
+        width: 50%;
+        justify-content: left;
+        background-color: rgb(245, 153, 240);
+     
+    }
+    @media (min-width: :992px){
+        .first:after {
+            content: "Large";
+        }
+    }
+   
